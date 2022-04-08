@@ -1,0 +1,143 @@
+<!DOCTYPE html><html class="appearance-auto" lang="en"><head><meta charset="UTF-8"><title>MarkDown基础语法</title><meta name="description" content="May the Force be with you"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- Google Analytics --><!-- End Google Analytics -->
+<!-- Baidu Analytics --><!-- End Baidu Analytics --><link rel="icon" href="/images/favicon.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="Markdown基础语法一. 标题编辑在标题前使用‘#’， ‘#’越多标题级别越小（字体越小)
+
+二. 正文换行记得在实际编写时隔一行
+像这样
+
+三. 代码模块在第一行末尾加上语言名字自动执行对应的语法高亮
+#include&amp;lt;bits/stdc++.h&amp;gt;
+using namespace std;
+
+int main(){
+    cout &amp;lt;&amp;lt; &quot;Hello, MarkDown\n&quot;;
+}
+
+
+四. 行内代码正文中的代码输入``框出
+
+例子:  c++输出字符串：printf(&quot;%s\n&quot;, ss);
+
+五. 列表有序列表输入数字，加一个句点，然后空格即可；可以缩进(Tab键)空置多级列表；
+
+
+a
+b
+b1
+
+
+c
+d
+d1
+d12
+d123
+
+
+
+
+
+
+
+无序列表输入-， 然后空.."><meta name="generator" content="Hexo 6.1.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Glenville Twinko's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">MarkDown基础语法</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="toc-text">Markdown基础语法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80-%E6%A0%87%E9%A2%98%E7%BC%96%E8%BE%91"><span class="toc-text">一. 标题编辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C-%E6%AD%A3%E6%96%87"><span class="toc-text">二. 正文</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89-%E4%BB%A3%E7%A0%81%E6%A8%A1%E5%9D%97"><span class="toc-text">三. 代码模块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81"><span class="toc-text">四. 行内代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94-%E5%88%97%E8%A1%A8"><span class="toc-text">五. 列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-text">有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-text">无序列表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD-%E5%AD%97%E4%BD%93"><span class="toc-text">六. 字体</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83-%E5%BC%95%E7%94%A8"><span class="toc-text">七. 引用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AB-%E5%88%86%E5%89%B2%E7%BA%BF"><span class="toc-text">八. 分割线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D-%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5"><span class="toc-text">九. 图片插入</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%9C%A8%E7%BA%BF%E5%9B%BE%E7%89%87"><span class="toc-text">1. 在线图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%9C%A8%E7%BA%BF%E5%9B%BE%E7%89%87"><span class="toc-text">2. 在线图片</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81-%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="toc-text">十. 超链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E7%BB%93%E6%92%92%E8%8A%B1%F0%9F%92%90%F0%9F%92%90%F0%9F%92%90"><span class="toc-text">完结撒花💐💐💐</span></a></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7"><i class="tag post-item-tag">基础工具</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">MarkDown基础语法</h1><time class="has-text-grey" datetime="2022-04-08T09:45:06.000Z">2022-04-08</time><article class="mt-2 post-content"><h1 id="Markdown基础语法"><a href="#Markdown基础语法" class="headerlink" title="Markdown基础语法"></a>Markdown基础语法</h1><h2 id="一-标题编辑"><a href="#一-标题编辑" class="headerlink" title="一. 标题编辑"></a>一. 标题编辑</h2><pre><code>在标题前使用‘#’， ‘#’越多标题级别越小（字体越小)
+</code></pre>
+<h2 id="二-正文"><a href="#二-正文" class="headerlink" title="二. 正文"></a>二. 正文</h2><p>换行记得在实际编写时隔一行</p>
+<pre><code>像这样
+</code></pre>
+<h2 id="三-代码模块"><a href="#三-代码模块" class="headerlink" title="三. 代码模块"></a>三. 代码模块</h2><p>在第一行末尾加上语言名字自动执行对应的语法高亮</p>
+<pre><code class="c++">#include&lt;bits/stdc++.h&gt;
+using namespace std;
+
+int main(){
+    cout &lt;&lt; "Hello, MarkDown\n";
+}
+</code></pre>
+<p><img src="https://pic2.zhimg.com/v2-7880bcfe5527b500f5fbdaa1d9349f59_b.webp" alt="代码高亮"></p>
+<h2 id="四-行内代码"><a href="#四-行内代码" class="headerlink" title="四. 行内代码"></a>四. 行内代码</h2><pre><code>正文中的代码输入``框出
+</code></pre>
+<p>例子:  c++输出字符串：<code>printf("%s\n", ss);</code></p>
+<p><img src="https://pic4.zhimg.com/v2-bb63b917c2a506bb23f7c4977bd1f553_b.webp" alt="行内代码"></p>
+<h2 id="五-列表"><a href="#五-列表" class="headerlink" title="五. 列表"></a>五. 列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><pre><code>输入数字，加一个句点，然后空格即可；可以缩进(Tab键)空置多级列表；
+</code></pre>
+<ol>
+<li>a</li>
+<li>b<ol>
+<li>b1</li>
+</ol>
+</li>
+<li>c</li>
+<li>d<ol>
+<li>d1<ol>
+<li>d12<ol>
+<li>d123</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><pre><code>输入-， 然后空格
+</code></pre>
+<ul>
+<li>abc</li>
+<li>def<ul>
+<li>fgh<ul>
+<li>123</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="六-字体"><a href="#六-字体" class="headerlink" title="六. 字体"></a>六. 字体</h2><pre><code class="c++">// 加粗
+**加粗**
+// 倾斜
+*倾斜*
+//加粗+倾斜
+***Glenville***
+// 代码高亮显示
+==Hello，Markdown==
+// 删除线
+~~删除过的内容~~
+</code></pre>
+<p><strong>加粗</strong><br><em>倾斜</em></p>
+<p><em><strong>Glenville</strong></em></p>
+<p>==Hello, Typora==</p>
+<p><del>删除过的内容</del></p>
+<h2 id="七-引用"><a href="#七-引用" class="headerlink" title="七. 引用"></a>七. 引用</h2><pre><code class="c++">//引用语法
+&gt;作者：冰临神下
+&gt;&gt;作者：冰临神下
+&gt;&gt;&gt;作者：冰临神下
+</code></pre>
+<blockquote>
+<p>作者：冰临神下</p>
+<blockquote>
+<p>作者：冰临神下</p>
+<blockquote>
+<p>作者：冰临神下</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="八-分割线"><a href="#八-分割线" class="headerlink" title="八. 分割线"></a>八. 分割线</h2><pre><code class="c++">// 分割线
+---
+// 分割线2
+***
+</code></pre>
+<hr>
+<hr>
+<h2 id="九-图片插入"><a href="#九-图片插入" class="headerlink" title="九. 图片插入"></a>九. 图片插入</h2><h3 id="1-在线图片"><a href="#1-在线图片" class="headerlink" title="1. 在线图片"></a>1. 在线图片</h3><pre><code class="c++">![名字](本地路径)
+</code></pre>
+<p><img src="/home/twinko/%E5%9B%BE%E7%89%87/%E5%A3%81%E7%BA%B8/wife1.jpg" alt="Wife"></p>
+<h3 id="2-在线图片"><a href="#2-在线图片" class="headerlink" title="2. 在线图片"></a>2. 在线图片</h3><pre><code class="c++">//![名字](网页复制路径)
+</code></pre>
+<p><img src="https://pic4.zhimg.com/v2-bb63b917c2a506bb23f7c4977bd1f553_b.webp" alt="行内代码"></p>
+<h2 id="十-超链接"><a href="#十-超链接" class="headerlink" title="十. 超链接"></a>十. 超链接</h2><pre><code class="c++">//超链接语法
+[名字](地址)
+</code></pre>
+<p><a target="_blank" rel="noopener" href="https://github.com/GlenvilleTwinko">我的Github</a></p>
+<h2 id="完结撒花💐💐💐"><a href="#完结撒花💐💐💐" class="headerlink" title="完结撒花💐💐💐"></a>完结撒花💐💐💐</h2><p>先记到这儿,以后有需要再补充(逃)</p>
+<p>以上所有内容来源于这两位大佬: </p>
+<p>​    <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hJ411X75X?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1hJ411X75X?spm_id_from=333.337.search-card.all.click</a></p>
+<p>​    <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/56943330">https://zhuanlan.zhihu.com/p/56943330</a></p>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><em></em><a class="button is-default" href="/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E7%82%B9/" title="有关c++ string的一些知识点"><span class="has-text-weight-semibold">Next: 有关c++ string的一些知识点</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="GlenvilleTwinko/GlenvilleTwinko.github.io" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com//"><i class="iconfont icon-twitter"></i></a><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/GlenvilleTwinko"><i class="iconfont icon-github"></i></a><!-- Ins--><a title="instagram" target="_blank" rel="noopener nofollow" href="//www.instagram.com//"><i class="iconfont icon-ins"></i></a><!-- RSS--><!-- 知乎--><a title="zhihu" target="_blank" rel="noopener nofollow" href="//zhihu.com/people/twinko-48"><i class="iconfont icon-zhihu"></i></a><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com//"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Glenville Twinko 2022</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>
