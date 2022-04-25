@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Glenville Twinko&#39;s Blog</title>
+  <title>Twinko&#39;s Blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://etvvil.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://etvvil.github.io/"/>
   <updated>2022-04-08T16:58:19.908Z</updated>
-  <id>http://example.com/</id>
+  <id>http://etvvil.github.io/</id>
+  
+  <author>
+    <name>Twinko</name>
+    
+  </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>216_B</title>
-    <link href="http://example.com/2022/04/09/216-B/"/>
-    <id>http://example.com/2022/04/09/216-B/</id>
+    <link href="http://etvvil.github.io/2022/04/09/216-B/"/>
+    <id>http://etvvil.github.io/2022/04/09/216-B/</id>
     <published>2022-04-08T16:42:51.000Z</published>
     <updated>2022-04-08T16:58:19.908Z</updated>
     
@@ -29,21 +34,21 @@ using na</summary>
     
     
     
-    <category term="Atcoder_ABC组" scheme="http://example.com/categories/Atcoder-ABC%E7%BB%84/"/>
+    <category term="Atcoder_ABC组" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84/"/>
     
-    <category term="B组题" scheme="http://example.com/categories/Atcoder-ABC%E7%BB%84/B%E7%BB%84%E9%A2%98/"/>
+    <category term="B组题" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84/B%E7%BB%84%E9%A2%98/"/>
     
     
   </entry>
   
   <entry>
     <title>MarkDown基础语法</title>
-    <link href="http://example.com/2022/04/08/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://example.com/2022/04/08/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <link href="http://etvvil.github.io/2022/04/08/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>http://etvvil.github.io/2022/04/08/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
     <published>2022-04-08T09:45:06.000Z</published>
-    <updated>2022-04-08T16:10:21.358Z</updated>
+    <updated>2022-04-25T15:00:31.616Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Markdown基础语法"><a href="#Markdown基础语法" class="headerlink" title="Markdown基础语法"></a>Markdown基础语法</h1><h2 id="一-标题编辑"><a href="#一-标题编辑" class="headerlink" title="一. 标题编辑"></a>一. 标题编辑</h2><pre><code>在标题前使用‘#’， ‘#’越多标题级别越小（字体越小)</code></pre><hr><h2 id="二-正文"><a href="#二-正文" class="headerlink" title="二. 正文"></a>二. 正文</h2><p>换行记得在实际编写时隔一行</p><pre><code class="c++">/*HelloWorld*/</code></pre><p>Hello</p><p>World</p><hr><h2 id="三-代码模块"><a href="#三-代码模块" class="headerlink" title="三. 代码模块"></a>三. 代码模块</h2><p>在第一行末尾加上语言名字自动执行对应的语法高亮</p><pre><code class="c++">#include&lt;bits/stdc++.h&gt;using namespace std;int main(){    cout &lt;&lt; "Hello, MarkDown\n";}</code></pre><p><img src="https://pic2.zhimg.com/v2-7880bcfe5527b500f5fbdaa1d9349f59_b.webp" alt="代码高亮"></p><hr><h2 id="四-行内代码"><a href="#四-行内代码" class="headerlink" title="四. 行内代码"></a>四. 行内代码</h2><pre><code>正文中的代码输入``框出</code></pre><p>例子:  c++输出字符串：<code>printf("%s\n", ss);</code></p><p><img src="https://pic4.zhimg.com/v2-bb63b917c2a506bb23f7c4977bd1f553_b.webp" alt="行内代码"></p><hr><h2 id="五-列表"><a href="#五-列表" class="headerlink" title="五. 列表"></a>五. 列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><pre><code>输入数字，加一个句点，然后空格即可；可以缩进(Tab键)空置多级列表；</code></pre><ol><li>a</li><li>b<ol><li>b1</li></ol></li><li>c</li><li>d<ol><li>d1<ol><li>d12<ol><li>d123</li></ol></li></ol></li></ol></li></ol><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><pre><code>输入-， 然后空格</code></pre><ul><li>abc</li><li>def<ul><li>fgh<ul><li>123</li></ul></li></ul></li></ul><hr><h2 id="六-字体"><a href="#六-字体" class="headerlink" title="六. 字体"></a>六. 字体</h2><pre><code class="c++">// 加粗**加粗**// 倾斜*倾斜*//加粗+倾斜***Glenville***// 删除线~~删除过的内容~~</code></pre><p><strong>加粗</strong><br><em>倾斜</em></p><p><em><strong>Glenville</strong></em></p><p><del>删除过的内容</del></p><hr><h2 id="七-引用"><a href="#七-引用" class="headerlink" title="七. 引用"></a>七. 引用</h2><pre><code class="c++">//引用语法&gt;作者：冰临神下&gt;&gt;作者：冰临神下&gt;&gt;&gt;作者：冰临神下</code></pre><blockquote><p>作者：冰临神下</p><blockquote><p>作者：冰临神下</p><blockquote><p>作者：冰临神下</p></blockquote></blockquote></blockquote><hr><h2 id="八-分割线"><a href="#八-分割线" class="headerlink" title="八. 分割线"></a>八. 分割线</h2><pre><code class="c++">// 分割线---// 分割线2***</code></pre><hr><hr><hr><h2 id="九-图片插入"><a href="#九-图片插入" class="headerlink" title="九. 图片插入"></a>九. 图片插入</h2><h3 id="1-本地图片"><a href="#1-本地图片" class="headerlink" title="1. 本地图片"></a>1. 本地图片</h3><pre><code class="c++">//![名字](本地路径)</code></pre><p>但以上只能本地访问,上传到github或者博客就显示不了, <del>可以采用HTML的语法改写路径:~~~~(&lt;)img src=”图片路径”/&gt;</del> </p><p>然而这样还是显示不出来……<br>通过STFW,决定用Github作为图床, 详情请参考这位大佬:    <a href="https://sghyxp.github.io/2018/10/29/hexo-addImg/index.html">https://sghyxp.github.io/2018/10/29/hexo-addImg/index.html</a></p><p><img src="https://glenvilletwinko.github.io/images/nai_xu.png" alt="本地图片"></p><h3 id="2-在线图片"><a href="#2-在线图片" class="headerlink" title="2. 在线图片"></a>2. 在线图片</h3><pre><code class="c++">//![名字](网页复制路径)</code></pre><p><img src="https://pic4.zhimg.com/v2-bb63b917c2a506bb23f7c4977bd1f553_b.webp" alt="行内代码"></p><hr><h2 id="十-超链接"><a href="#十-超链接" class="headerlink" title="十. 超链接"></a>十. 超链接</h2><pre><code class="c++">//超链接语法[名字](地址)</code></pre><p><a href="https://github.com/GlenvilleTwinko">我的Github</a></p><h2 id="完结撒花💐💐💐"><a href="#完结撒花💐💐💐" class="headerlink" title="完结撒花💐💐💐"></a>完结撒花💐💐💐</h2><p>先记到这儿,以后有需要再补充(逃)</p><p>以上所有内容来源于这两位大佬: </p><p>​    <a href="https://www.bilibili.com/video/BV1hJ411X75X?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1hJ411X75X?spm_id_from=333.337.search-card.all.click</a></p><p>​    <a href="https://zhuanlan.zhihu.com/p/56943330">https://zhuanlan.zhihu.com/p/56943330</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Markdown基础语法"><a href="#Markdown基础语法" class="headerlink" title="Markdown基础语法"></a>Markdown基础语法</h1><h2 id="一-标题编辑"><a href="#一-标题编辑" class="headerlink" title="一. 标题编辑"></a>一. 标题编辑</h2><pre><code>在标题前使用‘#’， ‘#’越多标题级别越小（字体越小)</code></pre><hr><h2 id="二-正文"><a href="#二-正文" class="headerlink" title="二. 正文"></a>二. 正文</h2><p>换行记得在实际编写时隔一行</p><pre><code class="c++">/*HelloWorld*/</code></pre><p>Hello</p><p>World</p><hr><h2 id="三-代码模块"><a href="#三-代码模块" class="headerlink" title="三. 代码模块"></a>三. 代码模块</h2><p>在第一行末尾加上语言名字自动执行对应的语法高亮</p><pre><code class="c++">#include&lt;bits/stdc++.h&gt;using namespace std;int main(){    cout &lt;&lt; "Hello, MarkDown\n";}</code></pre><p><img src="https://pic2.zhimg.com/v2-7880bcfe5527b500f5fbdaa1d9349f59_b.webp" alt="代码高亮"></p><hr><h2 id="四-行内代码"><a href="#四-行内代码" class="headerlink" title="四. 行内代码"></a>四. 行内代码</h2><pre><code>正文中的代码输入``框出</code></pre><p>例子:  c++输出字符串：<code>printf("%s\n", ss);</code></p><p><img src="https://pic4.zhimg.com/v2-bb63b917c2a506bb23f7c4977bd1f553_b.webp" alt="行内代码"></p><hr><h2 id="五-列表"><a href="#五-列表" class="headerlink" title="五. 列表"></a>五. 列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><pre><code>输入数字，加一个句点，然后空格即可；可以缩进(Tab键)空置多级列表；</code></pre><ol><li>a</li><li>b<ol><li>b1</li></ol></li><li>c</li><li>d<ol><li>d1<ol><li>d12<ol><li>d123</li></ol></li></ol></li></ol></li></ol><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><pre><code>输入-， 然后空格</code></pre><ul><li>abc</li><li>def<ul><li>fgh<ul><li>123</li></ul></li></ul></li></ul><hr><h2 id="六-字体"><a href="#六-字体" class="headerlink" title="六. 字体"></a>六. 字体</h2><pre><code class="c++">// 加粗**加粗**// 倾斜*倾斜*//加粗+倾斜***Glenville***// 删除线~~删除过的内容~~</code></pre><p><strong>加粗</strong><br><em>倾斜</em></p><p><em><strong>Glenville</strong></em></p><p><del>删除过的内容</del></p><hr><h2 id="七-引用"><a href="#七-引用" class="headerlink" title="七. 引用"></a>七. 引用</h2><pre><code class="c++">//引用语法&gt;作者：冰临神下&gt;&gt;作者：冰临神下&gt;&gt;&gt;作者：冰临神下</code></pre><blockquote><p>作者：冰临神下</p><blockquote><p>作者：冰临神下</p><blockquote><p>作者：冰临神下</p></blockquote></blockquote></blockquote><hr><h2 id="八-分割线"><a href="#八-分割线" class="headerlink" title="八. 分割线"></a>八. 分割线</h2><pre><code class="c++">// 分割线---// 分割线2***</code></pre><hr><hr><hr><h2 id="九-图片插入"><a href="#九-图片插入" class="headerlink" title="九. 图片插入"></a>九. 图片插入</h2><h3 id="1-本地图片"><a href="#1-本地图片" class="headerlink" title="1. 本地图片"></a>1. 本地图片</h3><pre><code class="c++">//![名字](本地路径)</code></pre><p>但以上只能本地访问,上传到github或者博客就显示不了, <del>可以采用HTML的语法改写路径:~~~~(&lt;)img src=”图片路径”/&gt;</del> </p><p>然而这样还是显示不出来……<br>通过STFW,决定用Github作为图床, 详情请参考这位大佬:    <a href="https://sghyxp.github.io/2018/10/29/hexo-addImg/index.html">https://sghyxp.github.io/2018/10/29/hexo-addImg/index.html</a></p><p><img src="https://github.com/GlenvilleTwinko/GlenvilleTwinko.github.io/blob/main/images/nai_xu.png" alt="本地图片"></p><h3 id="2-在线图片"><a href="#2-在线图片" class="headerlink" title="2. 在线图片"></a>2. 在线图片</h3><pre><code class="c++">//![名字](网页复制路径)</code></pre><p><img src="https://pic4.zhimg.com/v2-bb63b917c2a506bb23f7c4977bd1f553_b.webp" alt="行内代码"></p><hr><h2 id="十-超链接"><a href="#十-超链接" class="headerlink" title="十. 超链接"></a>十. 超链接</h2><pre><code class="c++">//超链接语法[名字](地址)</code></pre><p><a href="https://github.com/GlenvilleTwinko">我的Github</a></p><h2 id="完结撒花💐💐💐"><a href="#完结撒花💐💐💐" class="headerlink" title="完结撒花💐💐💐"></a>完结撒花💐💐💐</h2><p>先记到这儿,以后有需要再补充(逃)</p><p>以上所有内容来源于这两位大佬: </p><p>​    <a href="https://www.bilibili.com/video/BV1hJ411X75X?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1hJ411X75X?spm_id_from=333.337.search-card.all.click</a></p><p>​    <a href="https://zhuanlan.zhihu.com/p/56943330">https://zhuanlan.zhihu.com/p/56943330</a></p>]]></content>
     
     
       
@@ -54,14 +59,14 @@ using na</summary>
     
     
     
-    <category term="基础工具" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7/"/>
+    <category term="基础工具" scheme="http://etvvil.github.io/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>有关c++字符和字符串的一些使用技巧</title>
-    <link href="http://example.com/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
-    <id>http://example.com/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</id>
+    <link href="http://etvvil.github.io/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>http://etvvil.github.io/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</id>
     <published>2022-04-08T09:08:42.000Z</published>
     <updated>2022-04-08T16:27:03.765Z</updated>
     
@@ -79,14 +84,14 @@ using na</summary>
     
     
     
-    <category term="c++" scheme="http://example.com/tags/c/"/>
+    <category term="c++" scheme="http://etvvil.github.io/tags/c/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/04/06/hello-world/"/>
-    <id>http://example.com/2022/04/06/hello-world/</id>
+    <link href="http://etvvil.github.io/2022/04/06/hello-world/"/>
+    <id>http://etvvil.github.io/2022/04/06/hello-world/</id>
     <published>2022-04-06T07:54:15.643Z</published>
     <updated>2022-04-08T11:14:01.973Z</updated>
     
