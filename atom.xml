@@ -6,7 +6,7 @@
   <link href="http://etvvil.github.io/atom.xml" rel="self"/>
   
   <link href="http://etvvil.github.io/"/>
-  <updated>2022-04-08T16:58:19.908Z</updated>
+  <updated>2022-04-25T16:17:16.026Z</updated>
   <id>http://etvvil.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://etvvil.github.io/2022/04/09/216-B/"/>
     <id>http://etvvil.github.io/2022/04/09/216-B/</id>
     <published>2022-04-08T16:42:51.000Z</published>
-    <updated>2022-04-08T16:58:19.908Z</updated>
+    <updated>2022-04-25T16:17:16.026Z</updated>
     
     <content type="html"><![CDATA[<h1 id="216-B"><a href="#216-B" class="headerlink" title="216_B"></a>216_B</h1><pre><code class="c++">#include&lt;bits/stdc++.h&gt;using namespace std;int main(){    int n;    cin &gt;&gt; n;    vector&lt;string&gt; S(n), T(n);    for(int i = 0; i &lt; n ; i++)        cin &gt;&gt; S[i] &gt;&gt; T[i];    for(int j = 0; j &lt; n; j++)        for(int i = j + 1; i &lt; n; i++){            if(S[i] == S[j] &amp;&amp; T[i] == T[j]){                cout &lt;&lt; "Yes\n";                return 0;            }        }    cout &lt;&lt; "No\n";    return 0;}</code></pre><p>此题要注意合并字符串再来判断会出错(我), 因为是姓和名分开对比,</p><p>例如:</p><p>abc bca</p><p>ab cbca  </p>]]></content>
     
@@ -38,6 +38,8 @@ using na</summary>
     
     <category term="B组题" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84/B%E7%BB%84%E9%A2%98/"/>
     
+    
+    <category term="算法" scheme="http://etvvil.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
