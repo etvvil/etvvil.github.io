@@ -70,7 +70,7 @@ using na</summary>
     <link href="http://etvvil.github.io/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
     <id>http://etvvil.github.io/2022/04/08/%E6%9C%89%E5%85%B3c-string%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</id>
     <published>2022-04-08T09:08:42.000Z</published>
-    <updated>2022-04-08T16:27:03.765Z</updated>
+    <updated>2022-04-25T16:25:02.138Z</updated>
     
     <content type="html"><![CDATA[<ol><li>int k = 0…+ ‘A’ + ‘b’ + …</li></ol>]]></content>
     
@@ -84,6 +84,10 @@ using na</summary>
       
     
     
+    
+    <category term="编程语言基础" scheme="http://etvvil.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="C++" scheme="http://etvvil.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/C/"/>
     
     
     <category term="c++" scheme="http://etvvil.github.io/tags/c/"/>
