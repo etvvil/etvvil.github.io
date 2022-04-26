@@ -6,7 +6,7 @@
   <link href="http://etvvil.github.io/atom.xml" rel="self"/>
   
   <link href="http://etvvil.github.io/"/>
-  <updated>2022-04-25T16:17:16.026Z</updated>
+  <updated>2022-04-26T15:51:38.041Z</updated>
   <id>http://etvvil.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>195_B</title>
+    <link href="http://etvvil.github.io/2022/04/26/195-B/"/>
+    <id>http://etvvil.github.io/2022/04/26/195-B/</id>
+    <published>2022-04-26T15:46:19.000Z</published>
+    <updated>2022-04-26T15:51:38.041Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><h3 id="Problem-Statement"><a href="#Problem-Statement" class="headerlink" title="Problem Statement"></a>Problem Statement</h3><p>We have many oranges. It is known that every orange weighs between A and B grams, inclusive. (An orange can have a non-integer weight.)</p><p>We chose some of those oranges, and their total weight was exactly W kilograms.</p><p>Find the minimum and maximum possible numbers of oranges chosen. If no set of oranges can weigh exactly W kilograms in total, report that fact.</p><hr><h3 id="Constraints"><a href="#Constraints" class="headerlink" title="Constraints"></a>Constraints</h3><p>1 ≤ A ≤ B ≤ 1000<br>1 ≤ W ≤ 1000<br>All values in input are integers.</p><hr><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>Input is given from Standard Input in the following format:</p><pre><code class="c++">A B W</code></pre><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>Print the minimum and maximum possible numbers of oranges chosen, in this order, with space in between. If there is no number of oranges that can have the specified total weight, print <code>UNSATISFIABLE</code> instead.</p><hr><h3 id="Sample-Input-1"><a href="#Sample-Input-1" class="headerlink" title="Sample Input 1"></a>Sample Input 1</h3><pre><code class="c++">100 200 2</code></pre><h3 id="Sample-Output-1"><a href="#Sample-Output-1" class="headerlink" title="Sample Output 1"></a>Sample Output 1</h3><pre><code class="c++">10 20</code></pre><p>Here, one range weighs between 100 and 200 grams (inclusive).</p><ul><li>If we choose 10 200-gram oranges, their total weight will be exactly 2 kilograms.</li><li>If we choose 20 100-gram oranges, their total weight will be exactly 2 kilograms.</li></ul><p>With less than 10 oranges or more than 20 oranges, the total weight will never be exactly 2 kilograms, so the minimum and maximum possible numbers of oranges chosen are 10 and 20, respectively.</p><p><strong>—————————————————————-分割线—————————————————————-</strong></p><h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>​    只要满足<code>AN &lt;= 1000W &lt;= BN</code>的N都可以，因为只要从<code>AN</code>开始遍历，一定可以不遗漏地遍历到<code>BN</code>，比如递推地A<sub>i</sub>一直加到B。</p><h3 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a>代码如下：</h3><pre><code class="c++">#include&lt;bits/stdc++.h&gt;using namespace std;const int INF = 1e9;int main(){    int a, b, w;    while(cin &gt;&gt; a &gt;&gt; b &gt;&gt; w){        w *= 1000;        int an = INF, ax = 0;        for(int i = 1; i &lt;= 1e6; ++i){            if(a*i&lt;=w &amp;&amp; w&lt;=b*i){                an = min(an, i);                ax = max(ax, i);            }        }        if(an == INF) printf("UNSATISFIABLE\n");        else printf("%d %d\n", an, ax);    }    exit(0);}</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h2&gt;&lt;h3 id=&quot;Problem-Statement&quot;&gt;&lt;a href=&quot;#Problem-Statement&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    <category term="Atcoder_ABC组 - B组题" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84-B%E7%BB%84%E9%A2%98/"/>
+    
+    
+    <category term="算法" scheme="http://etvvil.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>216_B</title>
