@@ -6,7 +6,7 @@
   <link href="http://etvvil.github.io/atom.xml" rel="self"/>
   
   <link href="http://etvvil.github.io/"/>
-  <updated>2022-04-26T16:15:28.027Z</updated>
+  <updated>2022-04-27T15:42:07.058Z</updated>
   <id>http://etvvil.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>B组题阶段结束</title>
+    <link href="http://etvvil.github.io/2022/04/27/B%E7%BB%84%E9%A2%98%E9%98%B6%E6%AE%B5%E7%BB%93%E6%9D%9F/"/>
+    <id>http://etvvil.github.io/2022/04/27/B%E7%BB%84%E9%A2%98%E9%98%B6%E6%AE%B5%E7%BB%93%E6%9D%9F/</id>
+    <published>2022-04-27T15:30:09.000Z</published>
+    <updated>2022-04-27T15:42:07.058Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h2><pre><code class="c++">ABC194 - ABC249AC数：56题</code></pre><hr><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>​        通过56道B组题的板刷我的代码实现能力得到了相当大的提高，刷到40多题的时候AC速度基本稳定在5-10分钟，个别题目需要花更长时间；同时觉得题目的难度越来越简单导致注意力慢慢松懈了下来，意识到此阶段已经基本结束了。</p><p>​        新的征程，出发！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;统计&quot;&gt;&lt;a href=&quot;#统计&quot; class=&quot;headerlink&quot; title=&quot;统计&quot;&gt;&lt;/a&gt;统计&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;c++&quot;&gt;ABC194 - ABC249
+AC数：56题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=</summary>
+      
+    
+    
+    
+    <category term="Atcoder_ABC组" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84/"/>
+    
+    <category term="B组题" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84/B%E7%BB%84%E9%A2%98/"/>
+    
+    
+    <category term="算法" scheme="http://etvvil.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>195_B</title>
