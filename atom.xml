@@ -6,7 +6,7 @@
   <link href="http://etvvil.github.io/atom.xml" rel="self"/>
   
   <link href="http://etvvil.github.io/"/>
-  <updated>2022-04-27T15:42:07.058Z</updated>
+  <updated>2022-05-03T15:46:25.657Z</updated>
   <id>http://etvvil.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C组题</title>
+    <link href="http://etvvil.github.io/2022/05/03/249-C/"/>
+    <id>http://etvvil.github.io/2022/05/03/249-C/</id>
+    <published>2022-05-03T15:17:39.000Z</published>
+    <updated>2022-05-03T15:46:25.657Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="249-Just-K"><a href="#249-Just-K" class="headerlink" title="249  Just - K"></a>249  Just - K</h1><h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>​        通过分析暴力解法，时间复杂度为***O(2<sup>N</sup>NM)***，N取15,M取26,因此不会TLE。但这道题要用到位运算（直接对一个整数顺序遍历即可）</p><h3 id="核心代码"><a href="#核心代码" class="headerlink" title="核心代码"></a>核心代码</h3><pre><code class="c++">#define rep(i, n) for(int i = 0; i &lt; n; ++i)rep(i, 1&lt;&lt;n){  vector&lt;int&gt; v(26);  rep(j, n){    if((i&gt;&gt;j)&amp;1)      rep(x, s[j].size()) v[s[j][x]-'a']++;  }}</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;249-Just-K&quot;&gt;&lt;a href=&quot;#249-Just-K&quot; class=&quot;headerlink&quot; title=&quot;249  Just - K&quot;&gt;&lt;/a&gt;249  Just - K&lt;/h1&gt;&lt;h2 id=&quot;题解&quot;&gt;&lt;a href=&quot;#题解&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    <category term="Atcoder_ABC组" scheme="http://etvvil.github.io/categories/Atcoder-ABC%E7%BB%84/"/>
+    
+    
+    <category term="算法" scheme="http://etvvil.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>B组题阶段结束</title>
