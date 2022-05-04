@@ -6,7 +6,7 @@
   <link href="http://etvvil.github.io/atom.xml" rel="self"/>
   
   <link href="http://etvvil.github.io/"/>
-  <updated>2022-05-03T15:50:37.660Z</updated>
+  <updated>2022-05-04T15:26:35.036Z</updated>
   <id>http://etvvil.github.io/</id>
   
   <author>
@@ -18,17 +18,17 @@
   
   <entry>
     <title>C组题</title>
-    <link href="http://etvvil.github.io/2022/05/03/249-C/"/>
-    <id>http://etvvil.github.io/2022/05/03/249-C/</id>
+    <link href="http://etvvil.github.io/2022/05/03/C%E7%BB%84%E9%A2%98/"/>
+    <id>http://etvvil.github.io/2022/05/03/C%E7%BB%84%E9%A2%98/</id>
     <published>2022-05-03T15:17:39.000Z</published>
-    <updated>2022-05-03T15:50:37.660Z</updated>
+    <updated>2022-05-04T15:26:35.036Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="249-Just-K"><a href="#249-Just-K" class="headerlink" title="249  Just - K"></a>249  Just - K</h1><h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>​        通过分析暴力解法，时间复杂度为O(2<sup>N</sup>NM)，N取15,M取26,因此不会TLE。但这道题要用到位运算（直接对一个整数顺序遍历即可）</p><h3 id="核心代码"><a href="#核心代码" class="headerlink" title="核心代码"></a>核心代码</h3><pre><code class="c++">#define rep(i, n) for(int i = 0; i &lt; n; ++i)rep(i, 1&lt;&lt;n){  vector&lt;int&gt; v(26);  rep(j, n){    if((i&gt;&gt;j)&amp;1)      rep(x, s[j].size()) v[s[j][x]-'a']++;  }}</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="249-Just-K"><a href="#249-Just-K" class="headerlink" title="249 - Just K"></a>249 - Just K</h1><h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>通过分析暴力解法，时间复杂度为O(2<sup>N</sup>NM)，N取15,M取26,因此不会TLE。但这道题要用到位运算（直接对一个整数顺序遍历即可）</p><h3 id="核心代码"><a href="#核心代码" class="headerlink" title="核心代码"></a>核心代码</h3><pre><code class="c++">#define rep(i, n) for(int i = 0; i &lt; n; ++i)rep(i, 1&lt;&lt;n){      vector&lt;int&gt; v(26);      rep(j, n){        if((i&gt;&gt;j)&amp;1)          rep(x, s[j].size()) v[s[j][x]-'a']++;      }}</code></pre><p><em><strong>—————————————————————-分割线—————————————————————-</strong></em></p><h1 id="248-Dice-Sum"><a href="#248-Dice-Sum" class="headerlink" title="248 - Dice Sum"></a>248 - Dice Sum</h1><h2 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h2><p>​        </p><p>因为可以将此题分解为方案数量为前 <em>i</em> 项总和为 <em>j</em> 的状态，很明显这是一个同构，将方案定义为<code>f[i][j]</code>,当<code>j+k &lt;= K</code>时状态转移方程为：<code>f[i+1][j+k] += f[i][j]</code>；最后统计<code>f[N][1],f[N][2],...,f[N][K]</code>的总和；时间复杂度为O(NKM)</p><h3 id="核心代码-1"><a href="#核心代码-1" class="headerlink" title="核心代码"></a>核心代码</h3><pre><code class="c++">typedef long long ll;for(ll i = 0; i &lt; n; ++i)    for(ll j = 0; j &lt; k; ++j)        for(ll x = 1; x &lt;= m; ++x)            if(j+x &lt;= k) f[i+1][j+x] += f[i][j]%mod;</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;249-Just-K&quot;&gt;&lt;a href=&quot;#249-Just-K&quot; class=&quot;headerlink&quot; title=&quot;249  Just - K&quot;&gt;&lt;/a&gt;249  Just - K&lt;/h1&gt;&lt;h2 id=&quot;题解&quot;&gt;&lt;a href=&quot;#题解&quot; class=&quot;he</summary>
+    <summary type="html">&lt;h1 id=&quot;249-Just-K&quot;&gt;&lt;a href=&quot;#249-Just-K&quot; class=&quot;headerlink&quot; title=&quot;249 - Just K&quot;&gt;&lt;/a&gt;249 - Just K&lt;/h1&gt;&lt;h2 id=&quot;题解&quot;&gt;&lt;a href=&quot;#题解&quot; class=&quot;head</summary>
       
     
     
